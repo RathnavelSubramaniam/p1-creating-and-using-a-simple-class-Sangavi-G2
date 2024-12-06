@@ -3,7 +3,6 @@ class Person
     String firstName;
     String lastName;
     int age;
-//Default constructor
     public Person()
  {
     firstName = "";
@@ -15,7 +14,6 @@ class Person
     this.lastName = lastName;
     this.age = age;
     }
-//Method to get full name
     public String getFullName() {
     return firstName +" "+lastName;
     }
@@ -24,7 +22,6 @@ class Person
     {
     public static void main (String[] args)
     { 
-//Create two Person objects
     Person person1 = new Person("Jhon", "doe", 30);
     Person person2 = new Person("Alice", "Smith", 25);
     System.out.println("Person 1: " + person1.getFullName());
