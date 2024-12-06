@@ -2,7 +2,7 @@ class Person
 {
     String firstName;
     String lastName;
-    int age;
+    int age;;
     public Person()
     {
           firstName = "";
